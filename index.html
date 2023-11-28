@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>People Table</title>
+</head>
+<body>
+  <h1>People Table</h1>
+  <table id="peopleTable">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Thumbnail</th>
+    </tr>
+  </table>
+  <div>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+  <div id="personDetailDialog" class="hidden">
+    <img id="detailImage" src="" alt="Profile Image">
+    <p><strong>Name:</strong> <span id="detailName"></span></p>
+    <p><strong>Email:</strong> <span id="detailEmail"></span></p>
+    <p><strong>Address:</strong> <span id="detailAddress"></span></p>
+    <p><strong>Phone:</strong> <span id="detailPhone"></span></p>
+    <button id="closeBtn">Close</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
